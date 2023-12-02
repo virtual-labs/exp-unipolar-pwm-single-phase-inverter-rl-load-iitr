@@ -1,6 +1,4 @@
-{
-    "version": 2.0,
-    "questions":[
+[
 		{
 			"question": "In pulse width modulated inverters, the output voltage is controlled by controlling which of the following?",
 			"answers": {
@@ -52,7 +50,7 @@
 			"correctAnswer": "a"
 		}
 	]
-}
+
 
 
 

@@ -11,7 +11,7 @@ With PWM, the modulating waveforms can be used to alter the output voltage's amp
 
 The reference signal, also known as a modulating or control signal, in this case a sinusoidal, and the carrier signal, a triangular wave that regulates the switching frequency, are needed to control the switches for sinusoidal PWM output.
 
-<center><img src="images\circuit.png" alt="1 phase controlled bridge rectifier" height="400" width="500" style="-webkit-filter:contrast(140%);"></center>
+<center><img src="images\circuit.png" alt="1 phase controlled bridge rectifier" height="450" width="600" style="-webkit-filter:contrast(140%);"></center>
 <center><b>Fig. 1 Unipolar PWM Single Phase Inverter</b></center><br>
 In a unipolar switching scheme for pulse-width modulation, the output is switched either from high to zero or from low to zero, rather than between high and low as in bipolar switching. One unipolar switching scheme has switch controls in Fig. 1 as follows:<br>
 <center style="font-size:20px; margin-top:2%; font-style:'Nunito sans', sans-serif;">MOS1 is on when V<sub>sine</sub> > V<sub>tri</sub></center>

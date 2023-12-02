@@ -1,6 +1,4 @@
-{
-    "version": 2.0,
-    "questions":[
+[
 		{
 			"question": "Which of the following conditions gives voltage Vdc/2 at one of the load terminals in unipolar pwm single phase inverter?",
 			"answers": {
@@ -52,4 +50,3 @@
 			"correctAnswer": "a"
 		}
 	]
-}
