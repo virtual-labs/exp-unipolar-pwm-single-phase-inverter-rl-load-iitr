@@ -1,39 +1,56 @@
-{
-  "version": 2.0,
-  "questions": [
-    {
-      "question": "This is a Sample Question 1?",
-      "answers": {
-        "a": "answer1",
-        "b": "answer2",
-        "c": "answer3",
-        "d": "answer4"
-      },
-      "explanations": {
-        "a": "Explanation 1  <a href='www.google.com'>here</a>",
-        "b": "Explanation 2",
-        "c": "Explanation 2",
-        "d": "Explanation 2"
-      },
-      "correctAnswer": "a",
-      "difficulty": "beginner"
-    },
-    {
-      "question": "This is a Sample Question 2?",
-      "answers": {
-        "a": "answer1",
-        "b": "answer2",
-        "c": "answer3",
-        "d": "answer4"
-      },
-      "explanations": {
-        "a": "Explanation 1  <a href='www.google.com'>here</a>",
-        "b": "Explanation 2",
-        "c": "Explanation 2",
-        "d": "Explanation 2"
-      },
-      "correctAnswer": "c",
-      "difficulty": "beginner"
-    }
-  ]
-}
+[
+		{
+			"question": "In pulse width modulated inverters, the output voltage is controlled by controlling which of the following?",
+			"answers": {
+				"a": "Input frequency",
+				"b": "Modulating index",
+				"c": "Amplification factor",
+				"d": "None of the above"
+			},
+			"correctAnswer": "b"
+		},
+		{
+			"question": "What will be the effect of increasing the number of pulses on inverter?",
+			"answers": {
+				"a": "Reduces the output voltage amplitude",
+				"b": "Reduces the inverter efficiency",
+				"c": "Improves the inverter efficiency",
+				"d": "None of the above"
+			},
+			"correctAnswer": "b"
+		},
+		{
+			"question": "In the sinusoidal pulse-width modulation scheme, if the zero of the triangular wave coincides with the zero of the reference sinusoidal, then what is the number of pulse per half cycle?",
+			"answers": {
+				"a": "fc/2f",
+				"b": "fc/2f+1",
+				"c": "2fc/f",
+				"d": "fc/2f-1"
+			},
+			"correctAnswer": "d"
+		},
+		{
+			"question": "What will be the value of amplitude modulation ratio (ma) if Vm,sin = 50 and Vm,tri = 50?",
+			"answers": {
+				"a": "1",
+				"b": "√2",
+				"c": "2",
+				"d": "None of the above"
+			},
+			"correctAnswer": "a"
+		},
+		{
+			"question": "In case of sinusoidal pulse width modulation with MI < 1, the order of the dominate harmonic can be raised by which of the following?",
+			"answers": {
+				"a": "increasing the number of pulses",
+				"b": "reducing the number of pulses",
+				"c": "lowering the input voltage frequency",
+				"d": "raising the input voltage frequency"
+			},
+			"correctAnswer": "a"
+		}
+	]
+
+
+
+
