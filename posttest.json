@@ -1,0 +1,52 @@
+[
+	{
+		"question": "Which of the following conditions gives voltage Vdc/2 at one of the load terminals in unipolar pwm single phase inverter?",
+		"answers": {
+			"a": "Vsin < Vtri",
+			"b": "-Vsin < Vtri",
+			"c": "Vsin > Vtri",
+			"d": "None of the above"
+		},
+		"correctAnswer": "c"
+	},
+	{
+		"question": "what will be the value of frequency modulation ratio (mf) if fsin is 60 Hz and ftri is 120 Hz?",
+		"answers": {
+			"a": "1",
+			"b": "2√2",
+			"c": "√2",
+			"d": "2"
+		},
+		"correctAnswer": "d"
+	},
+	{
+		"question": "In which of the following conditions output voltage is linearly proportional to the m_a?",
+		"answers": {
+			"a": "m_a > 1",
+			"b": "m_a > 2",
+			"c": "m_a ≤ 1",
+			"d": "m_a ≤ 2"
+		},
+		"correctAnswer": "c"
+	},
+	{
+		"question": "A bridge PWM inverter should provide alternating voltage at a frequency f = 50 Hz across an RL load (R = 10 Ω, L = 20 mH). The amplitude modulation factor is ma = 0.8 and the frequency modulation factor is mf = 21. The input DC voltage is VDC = 100 V. Determine power dissipated in resistive component of the load?",
+		"answers": {
+			"a": "410 W",
+			"b": "512 W",
+			"c": "231.6 W",
+			"d": "320 W"
+		},
+		"correctAnswer": "c"
+	},
+	{
+		"question": "The output voltage of a single-phase full wave bridge voltage source inverter is controlled by unipolar PWM with one pulse per half cycle. For the fundamental rms component of output voltage to be 75% of DC voltage. What is the required pulse width in degrees?",
+		"answers": {
+			"a": "112.8°",
+			"b": "150.2°",
+			"c": "222.8°",
+			"d": "260.2°"
+		},
+		"correctAnswer": "a"
+	}
+]
