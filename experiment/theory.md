@@ -1,4 +1,12 @@
 
+<head>
+
+<script type="text/javascript" async src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-MML-AM_CHTML"> 
+  
+</script>
+
+</head>
+
 <div style="font-family: 'Nunito Sans', sans-serif; font-size: 20px;text-align: justify;">
 
 ### **Introduction**
@@ -11,7 +19,7 @@ With PWM, the modulating waveforms can be used to alter the output voltage's amp
 
 The reference signal, also known as a modulating or control signal, in this case a sinusoidal, and the carrier signal, a triangular wave that regulates the switching frequency, are needed to control the switches for sinusoidal PWM output.
 
-<center><img src="images\circuit.png" alt="1 phase controlled bridge rectifier" height="450" width="600" style="-webkit-filter:contrast(140%);"></center>
+<center><img src="images\circuit.png" alt="1 phase controlled bridge rectifier" height="500" width="700" style="-webkit-filter:contrast(140%);"></center>
 <center><b>Fig. 1 Unipolar PWM Single Phase Inverter</b></center><br>
 In a unipolar switching scheme for pulse-width modulation, the output is switched either from high to zero or from low to zero, rather than between high and low as in bipolar switching. One unipolar switching scheme has switch controls in Fig. 1 as follows:<br>
 <center style="font-size:20px; margin-top:2%; font-style:'Nunito sans', sans-serif;">MOS1 is on when V<sub>sine</sub> > V<sub>tri</sub></center>
@@ -30,19 +38,19 @@ If we consider V<sub>ANref</sub> and V<sub>BNref</sub> to be the modulating sign
 
 <center>
 
-$v_{o} = V_{o}sin(w_1t) .......... (1)$
+$$v_{o} = V_{o}~sin(w_1t) .......... (1)$$
 
 </center>
 
 <center>
 
-$V_{ANref} = \frac {v_{o}}{2V_{dc}} + \frac {1}{2} = \frac {V_osin(w_1t)}{2V_{dc}} + \frac {1}{2} .......... (2)$
+$$V_{ANref} = \frac {v_{o}}{2V_{dc}} + \frac {1}{2} = \frac {V_o~sin(w_1t)}{2V_{dc}} + \frac {1}{2} .......... (2)$$
 
 </center>
 
 <center>
 
-$V_{BNref} = -\frac {v_{o}}{2V_{dc}} + \frac {1}{2} = \frac {-V_{o}sin(w_1t)}{2V_{dc}} + \frac {1}{2} .......... (3)$
+$$V_{BNref} = -\frac {v_{o}}{2V_{dc}} + \frac {1}{2} = \frac {-V_{o}~sin(w_1t)}{2V_{dc}} + \frac {1}{2} .......... (3)$$
 
 </center>
 
@@ -50,7 +58,7 @@ $V_{BNref} = -\frac {v_{o}}{2V_{dc}} + \frac {1}{2} = \frac {-V_{o}sin(w_1t)}{2V
 
 <center>
 
-$m_{f} = \frac {f_{tri}}{f_{sine}} .......... (4)$
+$$m_{f} = \frac {f_{tri}}{f_{sine}} .......... (4)$$
 
 </center>
 
@@ -58,7 +66,7 @@ $m_{f} = \frac {f_{tri}}{f_{sine}} .......... (4)$
 
 <center>
 
-$m_{a} = \frac {V_{m,sine}}{V_{m,tri}} .......... (5)$
+$$m_{a} = \frac {V_{m,~sine}}{V_{m,~tri}} .......... (5)$$
 
 </center>
 
